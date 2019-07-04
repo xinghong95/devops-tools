@@ -8,8 +8,8 @@ from jira import JIRA
 
 class JiraTool:
     def __init__(self):
-        self.server = 'http://mis.rongcard.com/jira'
-        self.basic_auth = ('gitlab', '19861029')
+        self.server = 'http://xxx/jira'
+        self.basic_auth = ('xxx', 'xxx')
         self.timeout = 5
         self.jiraClinet = None
 

@@ -7,19 +7,19 @@ import pymysql
 import uuid
 
 # 接入用户信息
-Client_Id = "d0886c2c7044442db9fc8c1b09e799f9"
-Client_Secret = "0b4ba0414b4e4cec831cdaa55bb79652"
-# Client_Id = "a1cb5f24c9be44139d4a7de4a37dff26"
-# Client_Secret = "26d11658144d42f3992f6e11bcf2a659"
+Client_Id = "xxx"
+Client_Secret = "xxx"
+# Client_Id = "xxx"
+# Client_Secret = "xxx"
 Tenant_Id = 30
 # 测试环境
-BASE_URL = "http://mis.rongcard.com"
+BASE_URL = "http://xxx"
 # 测试环境数据库配置信息
-DB_HOST = "47.97.52.109"
+DB_HOST = "xxx"
 DB_PORT = 3306
-DB_USER = "xinghong"
-DB_PWD = "sdf@#@$21"
-DB_NAME = "rcbp-tsm"
+DB_USER = "xxx"
+DB_PWD = "xxx"
+DB_NAME = "xxx"
 
 
 def get_client_id():
