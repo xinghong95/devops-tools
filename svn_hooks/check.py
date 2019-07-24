@@ -26,7 +26,7 @@ class JiraTool:
 
     def findIssueById(self, issueId):
         if issueId:
-            if self.jiraClinet == None:
+            if self.jiraClinet is None:
                 if not self.login:
                     return "JIRA_LOGIN_FAILED"
 
